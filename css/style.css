@@ -1,0 +1,184 @@
+
+.navbar {
+  background-color:#bdccd4;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.h1 {
+  color: white;
+  letter-spacing: 200px;
+  font-family:sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.nav-list {
+  list-style-type: none;
+  
+}
+
+.list-item {
+  align-items: right;
+}
+
+.nav-list .list-item {
+  display: inline-flex;
+  padding: 20px 20px;
+}
+
+
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: royalblue;
+}
+
+
+
+@media all and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    position: relative;
+    padding: 38px;
+  }
+
+.menu-line {
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 4px;
+}
+
+  .menu {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+
+  .nav-list {
+    list-style-type: none;
+    width: 100%;
+    align-items: flex-start;
+    padding-top: 10px;
+    display: none;
+  }
+
+  .nav-list .list-item {
+    display: block;
+    border-top: 1px solid white;
+  }
+
+  .primary-icon {
+    margin-top: 10px;
+    margin-left:10px;
+  }
+}
+
+
+
+
+
+.section {
+  min-height: 400px;
+  overflow: hidden;
+  padding-top: 80px;
+  /*position:relative;*/
+  border-color: black;
+  background-size: cover;
+  background-position: center center;
+}
+
+.subsection {
+  display:inline-flex;
+  height: 250px;
+  width: 250px;
+  justify-content:space-evenly;
+  align-content: center;
+  background-color: dimgray;
+  padding: 20px;
+}
+
+.subsection h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 24px;
+  font-weight:lighter;
+  align-items: center;
+  color: white;
+  position: center;
+}
+
+.subsection p {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: white;
+  display:inline-block;
+  position: relative;
+  justify-content: center;
+  align-content: center;
+
+}
+
+#heroimg {
+  align-items: center;
+}
+
+#home {
+  background-color: cadetblue;
+}
+
+#services {
+  background-color:white;
+}
+
+#about {
+background-color: coral;
+}
+
+#work {
+background-color: cyan;
+}
+
+#contact {
+background-color: darksalmon;
+}
+
+.title {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.userreseach {
+  float: left;
+  width: 250px;
+}
+
+.collaboration {
+  margin:0 auto;
+  width: 250px;
+}
+
+.wireframing {
+  float: right; 
+  width: 250px;
+}
