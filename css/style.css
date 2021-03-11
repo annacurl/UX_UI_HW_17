@@ -33,7 +33,6 @@
 }
 
 
-
 .navbar a {
   color: white;
   text-decoration: none;
@@ -41,6 +40,13 @@
 
 .navbar a:hover {
   color: royalblue;
+}
+
+#heroimg {
+  margin: 0px 5%;
+  min-height: 500px;
+  height: 70vh;
+
 }
 
 
