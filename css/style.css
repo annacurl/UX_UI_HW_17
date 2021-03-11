@@ -42,7 +42,7 @@
   color: royalblue;
 }
 
-.navbar-logo a {
+.navbar-logo {
   margin-left: 50px;
   width: auto;
   height: 35px;
@@ -116,7 +116,7 @@
   width: 250px;
   justify-content:space-evenly;
   align-content: center;
-  background-color: dimgray;
+  background-color: #bdccd4;
   padding: 20px;
 }
 
@@ -154,15 +154,15 @@
 }
 
 #about {
-background-color: coral;
+background-color: #bdccd4;
 }
 
 #work {
-background-color: cyan;
+background-color: #bdccd4;
 }
 
 #contact {
-background-color: darksalmon;
+background-color: white;
 }
 
 .title {
