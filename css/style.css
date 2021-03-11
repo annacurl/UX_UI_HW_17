@@ -42,7 +42,7 @@
   color: royalblue;
 }
 
-.navbar-logo {
+.navbar-logo a {
   margin-left: 50px;
   width: auto;
   height: 35px;
