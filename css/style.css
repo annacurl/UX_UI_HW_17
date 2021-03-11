@@ -43,9 +43,8 @@
 }
 
 #heroimg {
-  margin: 0px 5%;
-  min-height: 500px;
-  height: 70vh;
+  width: 100%;
+  height: auto;
 
 }
 
